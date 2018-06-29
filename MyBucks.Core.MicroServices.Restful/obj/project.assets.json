@@ -1263,7 +1263,7 @@
           "lib/netstandard2.0/MyBucks.Core.Defensive.dll": {}
         }
       },
-      "MyBucks.Core.MicroServices/1.0.5": {
+      "MyBucks.Core.MicroServices/1.0.6": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "7.0.1",
@@ -4288,13 +4288,13 @@
         "mybucks.core.defensive.nuspec"
       ]
     },
-    "MyBucks.Core.MicroServices/1.0.5": {
-      "sha512": "aX6PX5Jt9KkuFPMYBuWB90jvJb3Iew3RMR3R9q7XqPx3iHpO7kEd3CP8zmNpTiQ+vewt+dEqhjHkXmDzhQuYmQ==",
+    "MyBucks.Core.MicroServices/1.0.6": {
+      "sha512": "0WFVDnYdcaG7ROnBFyL+y94C+OFZdOv+2zncUiFru/WZGTrcuO655NcIKY/6BTkp3xZ/ptC3ht0HCJiUsvUT5g==",
       "type": "package",
-      "path": "mybucks.core.microservices/1.0.5",
+      "path": "mybucks.core.microservices/1.0.6",
       "files": [
         "lib/netstandard2.0/MyBucks.Core.MicroServices.dll",
-        "mybucks.core.microservices.1.0.5.nupkg.sha512",
+        "mybucks.core.microservices.1.0.6.nupkg.sha512",
         "mybucks.core.microservices.nuspec"
       ]
     },
@@ -8894,7 +8894,7 @@
       "Microsoft.AspNetCore.Mvc.Versioning >= 2.3.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 2.1.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.1.1",
-      "MyBucks.Core.MicroServices >= 1.0.5",
+      "MyBucks.Core.MicroServices >= 1.0.6",
       "NETStandard.Library >= 2.0.3",
       "Serilog >= 2.7.1",
       "SimpleInjector >= 4.3.0",
@@ -8973,7 +8973,7 @@
           },
           "MyBucks.Core.MicroServices": {
             "target": "Package",
-            "version": "[1.0.5, )"
+            "version": "[1.0.6, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

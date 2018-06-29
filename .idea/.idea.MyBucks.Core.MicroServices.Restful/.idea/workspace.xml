@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.Restful/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.Restful/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.Restful/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.Restful/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.Restful/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Filters/CheckKongAuthHeader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/Debug/netstandard2.0/MyBucks.Core.MicroServices.Restful.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/Debug/netstandard2.0/MyBucks.Core.Restful.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.Restful.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.Restful.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,34 +13,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RestServiceBase.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RestServiceBase.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="195">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
-                <marker date="1530260382798" expanded="false" signature="6:518" ph="..." />
-                <marker date="1530260382798" expanded="true" signature="550:3193" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="593:3191" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="786:849" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="889:1013" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="1253:1830" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="1897:2424" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="2291:2414" ph="/* NOTE: Do prevent cross-wired instances as much as possible. ... */" />
-                <marker date="1530260382798" expanded="true" signature="2492:3020" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="2541:2629" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="2701:2847" ph="{...}" />
-                <marker date="1530260382798" expanded="true" signature="3101:3185" ph="{...}" />
+                <marker date="1530266325533" expanded="false" signature="6:518" ph="..." />
+                <marker date="1530266325533" expanded="true" signature="550:3191" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="593:3189" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="786:849" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="889:1012" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="1251:1828" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="1895:2422" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="2289:2412" ph="/* NOTE: Do prevent cross-wired instances as much as possible. ... */" />
+                <marker date="1530266325533" expanded="true" signature="2490:3018" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="2539:2627" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="2699:2845" ph="{...}" />
+                <marker date="1530266325533" expanded="true" signature="3099:3183" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nuget.config" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Nuget.config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -81,6 +59,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config" />
+        <option value="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs" />
       </list>
     </option>
   </component>
@@ -158,12 +137,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530260685799</updated>
-      <workItem from="1530260689368" duration="1377000" />
+      <workItem from="1530260689368" duration="3128000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1530263060310</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530263060310</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix annoying typo">
+      <created>1530266333873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530266333873</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1377000" />
+    <option name="totallyTimeSpent" value="3128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,9 +179,9 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="NuGet" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -208,32 +202,37 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="fix annoying typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix annoying typo" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <marker date="1530260382798" expanded="false" signature="6:518" ph="..." />
-            <marker date="1530260382798" expanded="true" signature="550:3193" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="593:3191" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="786:849" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="889:1013" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="1253:1830" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="1897:2424" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="2291:2414" ph="/* NOTE: Do prevent cross-wired instances as much as possible. ... */" />
-            <marker date="1530260382798" expanded="true" signature="2492:3020" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="2541:2629" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="2701:2847" ph="{...}" />
-            <marker date="1530260382798" expanded="true" signature="3101:3185" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <marker date="1530266325533" expanded="false" signature="6:518" ph="..." />
+            <marker date="1530266325533" expanded="true" signature="550:3191" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="593:3189" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="786:849" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="889:1012" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="1251:1828" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="1895:2422" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="2289:2412" ph="/* NOTE: Do prevent cross-wired instances as much as possible. ... */" />
+            <marker date="1530266325533" expanded="true" signature="2490:3018" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="2539:2627" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="2699:2845" ph="{...}" />
+            <marker date="1530266325533" expanded="true" signature="3099:3183" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
