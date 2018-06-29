@@ -29,11 +29,11 @@ namespace MyBucks.Core.Restful
         private void LoadAppServices()
         {
             LoadStaticsIntoContainer(container);
-            RegistereServices(container);
+            RegisterServices(container);
             
         }
 
-        protected abstract void RegistereServices(Container container1);
+        protected abstract void RegisterServices(Container container1);
         
 
         protected abstract void LoadStaticsIntoContainer(Container container1);
