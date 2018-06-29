@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\projects\mybucks\lib\MyBucks.Core.Restful" t="IncludeFlat">
+      <e p="MyBucks.Core.Restful" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Filters" t="Include">
+          <e p="CheckKongAuthHeader.cs" t="Include" />
+        </e>
+        <e p="MyBucks.Core.Restful.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="MyBucks.Core.Restful.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RestServiceBase.cs" t="Include" />
+      </e>
+      <e p="MyBucks.Core.Restful.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\tjaartb\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_MyBucks.Core.Restful.-1696684660.00" t="ExcludeRecursive" />
+  </component>
+</project>
