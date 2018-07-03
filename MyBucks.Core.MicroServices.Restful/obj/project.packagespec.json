@@ -26,6 +26,10 @@
   "frameworks": {
     "netstandard2.0": {
       "dependencies": {
+        "Microsoft.AspNetCore.Hosting": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
         "Microsoft.AspNetCore.Http": {
           "target": "Package",
           "version": "[2.1.1, )"
@@ -45,6 +49,10 @@
         "Microsoft.AspNetCore.Mvc.Versioning": {
           "target": "Package",
           "version": "[2.3.0, )"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": {
+          "target": "Package",
+          "version": "[2.1.1, )"
         },
         "Microsoft.Extensions.Configuration.Abstractions": {
           "target": "Package",
@@ -67,6 +75,10 @@
         "Serilog": {
           "target": "Package",
           "version": "[2.7.1, )"
+        },
+        "Serilog.AspNetCore": {
+          "target": "Package",
+          "version": "[2.1.1, )"
         },
         "SimpleInjector": {
           "target": "Package",
