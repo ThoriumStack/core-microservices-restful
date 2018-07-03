@@ -3,10 +3,9 @@ using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Filters;
-using MyBucks.Core.MicroServices;
 using Serilog;
 
-namespace MyBucks.Core.Restful.Filters
+namespace MyBucks.Core.MicroServices.Restful.Filters
 {
     public class CheckKongAuthHeader : IActionFilter
     {

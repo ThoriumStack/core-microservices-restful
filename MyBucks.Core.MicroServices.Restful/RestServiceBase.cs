@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Controllers;
@@ -8,35 +7,31 @@ using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using MyBucks.Core.Restful.Filters;
+using MyBucks.Core.MicroServices.Abstractions;
+using MyBucks.Core.MicroServices.Restful.Filters;
 using SimpleInjector;
 using SimpleInjector.Integration.AspNetCore.Mvc;
 using SimpleInjector.Lifestyles;
 
-namespace MyBucks.Core.Restful
+namespace MyBucks.Core.MicroServices.Restful
 {
    public abstract class RestServiceBase
     {
+        private readonly IServiceStartup _startup;
         private Container container = new Container();
         
         public IConfiguration Configuration { get; }
         
-        public RestServiceBase(IConfiguration configuration)
+        public RestServiceBase(IConfiguration configuration, IServiceStartup startup)
         {
+            _startup = startup;
             Configuration = configuration;
         }
 
         private void LoadAppServices()
         {
-            LoadStaticsIntoContainer(container);
-            RegisterServices(container);
-            
+            ServiceStartup.ContainerSetup(container, _startup);
         }
-
-        protected abstract void RegisterServices(Container container1);
-        
-
-        protected abstract void LoadStaticsIntoContainer(Container container1);
 
 
         private void IntegrateSimpleInjector(IServiceCollection services)
@@ -66,7 +61,7 @@ namespace MyBucks.Core.Restful
 
             // Cross-wire ASP.NET services (if any). For instance:
             container.CrossWire<ILoggerFactory>(app);
-
+            container.Verify();
             // NOTE: Do prevent cross-wired instances as much as possible.
             // See: https://simpleinjector.org/blog/2016/07/
         }
