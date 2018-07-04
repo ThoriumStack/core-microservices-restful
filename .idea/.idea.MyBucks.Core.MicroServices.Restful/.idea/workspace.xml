@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.packagespec.json" afterDir="false" />
-    </list>
+    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +72,8 @@
       <file leaf-file-name="DefaultWebServiceEndpoint.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="420">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
                 <marker date="1530607951979" expanded="true" signature="6:151" ph="..." />
                 <marker date="1530607951979" expanded="true" signature="197:1395" ph="{...}" />
@@ -198,10 +191,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="y" value="1" />
+    <option name="width" value="1546" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,7 +256,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530260685799</updated>
-      <workItem from="1530260689368" duration="7700000" />
+      <workItem from="1530260689368" duration="8323000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1530263060310</created>
@@ -293,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530607335084</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add default service endpoint">
+      <created>1530608805874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530608805874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7700000" />
+    <option name="totallyTimeSpent" value="8323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +347,8 @@
     <MESSAGE value="fix annoying typo" />
     <MESSAGE value="package upgrade" />
     <MESSAGE value="new rest service base and service upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="new rest service base and service upgrade" />
+    <MESSAGE value="add default service endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="add default service endpoint" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
@@ -457,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="420">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <marker date="1530607951979" expanded="true" signature="6:151" ph="..." />
             <marker date="1530607951979" expanded="true" signature="197:1395" ph="{...}" />
