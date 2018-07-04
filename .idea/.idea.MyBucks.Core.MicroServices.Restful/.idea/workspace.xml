@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="" />
+    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,14 +15,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="IServiceEndpoint.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceEndpoint.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding>
-                <marker date="1530172072066" expanded="true" signature="49:202" ph="{...}" />
                 <marker date="1530172072066" expanded="true" signature="89:200" ph="{...}" />
               </folding>
             </state>
@@ -30,7 +34,6 @@
             <state relative-caret-position="105">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
-                <marker date="1530606637172" expanded="true" signature="49:170" ph="{...}" />
                 <marker date="1530606637172" expanded="true" signature="88:168" ph="{...}" />
               </folding>
             </state>
@@ -40,11 +43,10 @@
       <file leaf-file-name="RestServiceBase.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="945">
               <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
               <folding>
                 <marker date="1530606816851" expanded="true" signature="6:565" ph="..." />
-                <marker date="1530606816851" expanded="true" signature="611:3189" ph="{...}" />
                 <marker date="1530606816851" expanded="true" signature="654:3187" ph="{...}" />
                 <marker date="1530606816851" expanded="true" signature="923:1018" ph="{...}" />
                 <marker date="1530606816851" expanded="true" signature="1058:1142" ph="{...}" />
@@ -63,8 +65,8 @@
       <file leaf-file-name="MyBucks.Core.MicroServices.Restful.csproj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="300">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -72,10 +74,10 @@
       <file leaf-file-name="DefaultWebServiceEndpoint.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="240">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1530607951979" expanded="true" signature="6:151" ph="..." />
+                <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
                 <marker date="1530607951979" expanded="true" signature="197:1395" ph="{...}" />
                 <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
                 <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
@@ -98,11 +100,10 @@
       <file leaf-file-name="CheckKongAuthHeader.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Filters/CheckKongAuthHeader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="135">
               <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <marker date="1530606657484" expanded="true" signature="6:169" ph="..." />
-                <marker date="1530606657484" expanded="true" signature="223:1426" ph="{...}" />
                 <marker date="1530606657484" expanded="true" signature="278:1424" ph="{...}" />
                 <marker date="1530606657484" expanded="true" signature="355:451" ph="{...}" />
                 <marker date="1530606657484" expanded="true" signature="522:1119" ph="{...}" />
@@ -121,7 +122,6 @@
             <state relative-caret-position="30">
               <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
-                <marker date="1530606626747" expanded="true" signature="65:164" ph="{...}" />
                 <marker date="1530606626747" expanded="true" signature="103:162" ph="{...}" />
               </folding>
             </state>
@@ -144,7 +144,6 @@
               <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
                 <marker date="1530606630235" expanded="false" signature="6:68" ph="..." />
-                <marker date="1530606630235" expanded="true" signature="119:234" ph="{...}" />
                 <marker date="1530606630235" expanded="true" signature="152:232" ph="{...}" />
               </folding>
             </state>
@@ -158,13 +157,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceStartup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceStartup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8A63592A-1EE6-4A1D-A225-FD30B3C5EBA1/9a/b869633a/WebServiceSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ICustomLogging.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ICustomLogging.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ISeedable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ISeedable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Filters/CheckKongAuthHeader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -202,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -215,18 +213,13 @@
               <item name="MyBucks.Core.MicroServices.Restful (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="MyBucks.Core.MicroServices.Restful" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="MyBucks.Core.MicroServices.Restful (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="MyBucks.Core.MicroServices.Restful" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Filters" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,6 +250,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530260685799</updated>
       <workItem from="1530260689368" duration="8323000" />
+      <workItem from="1530697970101" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1530263060310</created>
@@ -293,11 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530608805874</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="package upgrade">
+      <created>1530698125379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530698125379</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8323000" />
+    <option name="totallyTimeSpent" value="9320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,27 +314,27 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="NuGet" visible="true" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,48 +346,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="fix annoying typo" />
-    <MESSAGE value="package upgrade" />
     <MESSAGE value="new rest service base and service upgrade" />
     <MESSAGE value="add default service endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="add default service endpoint" />
+    <MESSAGE value="package upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="package upgrade" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ICustomLogging.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <marker date="1530606626747" expanded="true" signature="65:164" ph="{...}" />
-            <marker date="1530606626747" expanded="true" signature="103:162" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ISeedable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <marker date="1530606630235" expanded="false" signature="6:68" ph="..." />
-            <marker date="1530606630235" expanded="true" signature="119:234" ph="{...}" />
-            <marker date="1530606630235" expanded="true" signature="152:232" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceEndpoint.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding>
-            <marker date="1530172072066" expanded="true" signature="49:202" ph="{...}" />
             <marker date="1530172072066" expanded="true" signature="89:200" ph="{...}" />
           </folding>
         </state>
@@ -397,37 +367,17 @@
         <state relative-caret-position="105">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <marker date="1530606637172" expanded="true" signature="49:170" ph="{...}" />
             <marker date="1530606637172" expanded="true" signature="88:168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Filters/CheckKongAuthHeader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <marker date="1530606657484" expanded="true" signature="6:169" ph="..." />
-            <marker date="1530606657484" expanded="true" signature="223:1426" ph="{...}" />
-            <marker date="1530606657484" expanded="true" signature="278:1424" ph="{...}" />
-            <marker date="1530606657484" expanded="true" signature="355:451" ph="{...}" />
-            <marker date="1530606657484" expanded="true" signature="522:1119" ph="{...}" />
-            <marker date="1530606657484" expanded="true" signature="600:652" ph="{...}" />
-            <marker date="1530606657484" expanded="true" signature="748:800" ph="{...}" />
-            <marker date="1530606657484" expanded="true" signature="892:1108" ph="{...}" />
-            <marker date="1530606657484" expanded="true" signature="1188:1418" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="945">
           <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
           <folding>
             <marker date="1530606816851" expanded="true" signature="6:565" ph="..." />
-            <marker date="1530606816851" expanded="true" signature="611:3189" ph="{...}" />
             <marker date="1530606816851" expanded="true" signature="654:3187" ph="{...}" />
             <marker date="1530606816851" expanded="true" signature="923:1018" ph="{...}" />
             <marker date="1530606816851" expanded="true" signature="1058:1142" ph="{...}" />
@@ -444,8 +394,167 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="300">
           <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8A63592A-1EE6-4A1D-A225-FD30B3C5EBA1/9a/b869633a/WebServiceSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Filters/CheckKongAuthHeader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <marker date="1530606657484" expanded="true" signature="6:169" ph="..." />
+            <marker date="1530606657484" expanded="true" signature="278:1424" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="355:451" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="522:1119" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="600:652" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="748:800" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="892:1108" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="1188:1418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ICustomLogging.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <marker date="1530606626747" expanded="true" signature="103:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ISeedable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1530606630235" expanded="false" signature="6:68" ph="..." />
+            <marker date="1530606630235" expanded="true" signature="152:232" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
+            <marker date="1530607951979" expanded="true" signature="197:1395" ph="{...}" />
+            <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
+            <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
+            <marker date="1530607951979" expanded="true" signature="708:1131" ph="{...}" />
+            <marker date="1530607951979" expanded="true" signature="1169:1297" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ICustomLogging.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <marker date="1530606626747" expanded="true" signature="103:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/ISeedable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1530606630235" expanded="false" signature="6:68" ph="..." />
+            <marker date="1530606630235" expanded="true" signature="152:232" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceEndpoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <marker date="1530172072066" expanded="true" signature="89:200" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceStartup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1530606637172" expanded="true" signature="88:168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Filters/CheckKongAuthHeader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <marker date="1530606657484" expanded="true" signature="6:169" ph="..." />
+            <marker date="1530606657484" expanded="true" signature="278:1424" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="355:451" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="522:1119" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="600:652" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="748:800" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="892:1108" ph="{...}" />
+            <marker date="1530606657484" expanded="true" signature="1188:1418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/RestServiceBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding>
+            <marker date="1530606816851" expanded="true" signature="6:565" ph="..." />
+            <marker date="1530606816851" expanded="true" signature="654:3187" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="923:1018" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="1058:1142" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="1218:1795" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="1862:2420" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="2287:2410" ph="/* NOTE: Do prevent cross-wired instances as much as possible. ... */" />
+            <marker date="1530606816851" expanded="true" signature="2488:3016" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="2537:2625" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="2697:2843" ph="{...}" />
+            <marker date="1530606816851" expanded="true" signature="3097:3181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -458,10 +567,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <marker date="1530607951979" expanded="true" signature="6:151" ph="..." />
+            <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
             <marker date="1530607951979" expanded="true" signature="197:1395" ph="{...}" />
             <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
             <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
