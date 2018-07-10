@@ -1380,7 +1380,7 @@
           "lib/netstandard2.0/MyBucks.Core.DataProvider.dll": {}
         }
       },
-      "MyBucks.Core.Defensive/1.0.2": {
+      "MyBucks.Core.Defensive/1.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MyBucks.Core.Defensive.dll": {}
@@ -1389,7 +1389,7 @@
           "lib/netstandard2.0/MyBucks.Core.Defensive.dll": {}
         }
       },
-      "MyBucks.Core.MicroServices/1.0.15": {
+      "MyBucks.Core.MicroServices/1.0.16": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "7.0.1",
@@ -1400,8 +1400,8 @@
           "Mono.Posix.NETStandard": "1.0.0",
           "MyBucks.Core.DataIntegration": "1.0.17",
           "MyBucks.Core.DataProvider": "1.0.26",
-          "MyBucks.Core.Defensive": "1.0.2",
-          "MyBucks.Core.Model": "1.0.22",
+          "MyBucks.Core.Defensive": "1.0.3",
+          "MyBucks.Core.Model": "1.0.23",
           "MyBucks.Core.Serializers.CsvSerializer": "1.0.3",
           "Serilog": "2.7.1",
           "Serilog.Settings.Configuration": "2.6.1",
@@ -1416,7 +1416,7 @@
           "lib/netstandard2.0/MyBucks.Core.MicroServices.dll": {}
         }
       },
-      "MyBucks.Core.Model/1.0.22": {
+      "MyBucks.Core.Model/1.0.23": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.0"
@@ -4371,7 +4371,7 @@
       ]
     },
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "UMlN++q5qqzQ2HH+uOrKxN5fmBXMQDhrYkSaPJxhmyzfJaFPirrVr1raim/Ocq1psAZoB9+7JSAf0GDAX35wUg==",
+      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
       "type": "package",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "files": [
@@ -4534,33 +4534,33 @@
         "mybucks.core.dataprovider.nuspec"
       ]
     },
-    "MyBucks.Core.Defensive/1.0.2": {
-      "sha512": "oBKPtm/XTtGNGNzJzbGfEZmuPHUiFg7ltHZAm5jzY64EJUKnX5vqIKHeqWzISdXTZvqkUaS1C3H1FVnbr0/4Lw==",
+    "MyBucks.Core.Defensive/1.0.3": {
+      "sha512": "dzUrcjITzmcK7ttZtXIXvemvHSu5iqJt9wdkz0k9qCG4KVH91RBm6AE9wjzW4tEPPJiHRDaQjKpkkPstNxA5pw==",
       "type": "package",
-      "path": "mybucks.core.defensive/1.0.2",
+      "path": "mybucks.core.defensive/1.0.3",
       "files": [
         "lib/netstandard2.0/MyBucks.Core.Defensive.dll",
-        "mybucks.core.defensive.1.0.2.nupkg.sha512",
+        "mybucks.core.defensive.1.0.3.nupkg.sha512",
         "mybucks.core.defensive.nuspec"
       ]
     },
-    "MyBucks.Core.MicroServices/1.0.15": {
-      "sha512": "ASoh2q0CcgnJFH5/brqq6LChXcvBiCuQ5DLX60+VcTTPiLQArhMtAoe5Tl01MfQ8BHg+M+IfYcr83293YLYaXA==",
+    "MyBucks.Core.MicroServices/1.0.16": {
+      "sha512": "JsrmXzQdAiKcqvR9S68ifDGPokTjhKasMBKQYBoMAzeahko5oy+HQFzuispwZhM8H6nS2YDy62Nn2DbFb/Zm2A==",
       "type": "package",
-      "path": "mybucks.core.microservices/1.0.15",
+      "path": "mybucks.core.microservices/1.0.16",
       "files": [
         "lib/netstandard2.0/MyBucks.Core.MicroServices.dll",
-        "mybucks.core.microservices.1.0.15.nupkg.sha512",
+        "mybucks.core.microservices.1.0.16.nupkg.sha512",
         "mybucks.core.microservices.nuspec"
       ]
     },
-    "MyBucks.Core.Model/1.0.22": {
-      "sha512": "Yxt07mSsxK5trq+qNYCknzqAoH0xVRm/GJDxJjaJxIg7fS6Nwg8S1bGI/OUwle7I8AWKwPjVPAYh9eMaPgGphw==",
+    "MyBucks.Core.Model/1.0.23": {
+      "sha512": "gy/Uh5PVmhyxyVN3saKeFDzF+e438k9aqlodvQE3Q3FLr3E1M/gRUjjGBXsoBVXMPJWNrmVzTdszHlLj5l+t0g==",
       "type": "package",
-      "path": "mybucks.core.model/1.0.22",
+      "path": "mybucks.core.model/1.0.23",
       "files": [
         "lib/netstandard2.0/MyBucks.Core.Model.dll",
-        "mybucks.core.model.1.0.22.nupkg.sha512",
+        "mybucks.core.model.1.0.23.nupkg.sha512",
         "mybucks.core.model.nuspec"
       ]
     },
@@ -9233,7 +9233,7 @@
       "Microsoft.AspNetCore.Server.Kestrel >= 2.1.1",
       "Microsoft.Extensions.Configuration.Abstractions >= 2.1.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.1.1",
-      "MyBucks.Core.MicroServices >= 1.0.15",
+      "MyBucks.Core.MicroServices >= 1.0.16",
       "NETStandard.Library >= 2.0.3",
       "Serilog >= 2.7.1",
       "Serilog.AspNetCore >= 2.1.1",
@@ -9321,7 +9321,7 @@
           },
           "MyBucks.Core.MicroServices": {
             "target": "Package",
-            "version": "[1.0.15, )"
+            "version": "[1.0.16, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

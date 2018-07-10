@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,17 +70,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultWebServiceEndpoint.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DefaultWebServiceEndpoint.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="246">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
-                <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
-                <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
-                <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
-                <marker date="1530607951979" expanded="true" signature="708:1131" ph="{...}" />
-                <marker date="1530607951979" expanded="true" signature="1169:1297" ph="{...}" />
+                <marker date="1531230980586" expanded="false" signature="6:151" ph="..." />
+                <marker date="1531230980586" expanded="true" signature="197:1412" ph="{...}" />
+                <marker date="1531230980586" expanded="true" signature="294:1410" ph="{...}" />
+                <marker date="1531230980586" expanded="true" signature="549:669" ph="{...}" />
+                <marker date="1531230980586" expanded="true" signature="708:1131" ph="{...}" />
+                <marker date="1531230980586" expanded="true" signature="1169:1314" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -124,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nuget.config" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Nuget.config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -245,7 +248,8 @@
       <workItem from="1530697970101" duration="1944000" />
       <workItem from="1530795911387" duration="785000" />
       <workItem from="1531127162312" duration="3536000" />
-      <workItem from="1531140994661" duration="2707000" />
+      <workItem from="1531140994661" duration="3336000" />
+      <workItem from="1531230925820" duration="1282000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1530263060310</created>
@@ -331,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531209990873</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add git ignore">
+      <created>1531212713917</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1531212713917</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17295000" />
+    <option name="totallyTimeSpent" value="19206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,8 +369,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32897604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -386,9 +397,17 @@
     <MESSAGE value="new rest service base and service upgrade" />
     <MESSAGE value="add default service endpoint" />
     <MESSAGE value="package upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="package upgrade" />
+    <MESSAGE value="add git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git ignore" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../MyBucks.Core.MicroServices/MyBucks.Core.MicroServices/Abstractions/IServiceEndpoint.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -441,11 +460,12 @@
         <state relative-caret-position="345">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
-            <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="708:1131" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="1169:1297" ph="{...}" />
+            <marker date="1531230980586" expanded="false" signature="6:151" ph="..." />
+            <marker date="1531230980586" expanded="true" signature="197:1412" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="294:1410" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="549:669" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="708:1131" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="1169:1314" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -550,11 +570,12 @@
         <state relative-caret-position="345">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
-            <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="708:1131" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="1169:1297" ph="{...}" />
+            <marker date="1531230980586" expanded="false" signature="6:151" ph="..." />
+            <marker date="1531230980586" expanded="true" signature="197:1412" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="294:1410" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="549:669" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="708:1131" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="1169:1314" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -659,11 +680,12 @@
         <state relative-caret-position="345">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
-            <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="708:1131" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="1169:1297" ph="{...}" />
+            <marker date="1531230980586" expanded="false" signature="6:151" ph="..." />
+            <marker date="1531230980586" expanded="true" signature="197:1412" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="294:1410" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="549:669" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="708:1131" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="1169:1314" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -816,11 +838,12 @@
         <state relative-caret-position="510">
           <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
-            <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
-            <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="708:1131" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="1169:1297" ph="{...}" />
+            <marker date="1531230980586" expanded="false" signature="6:151" ph="..." />
+            <marker date="1531230980586" expanded="true" signature="197:1412" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="294:1410" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="549:669" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="708:1131" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="1169:1314" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -913,24 +936,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <marker date="1530607951979" expanded="false" signature="6:151" ph="..." />
-            <marker date="1530607951979" expanded="true" signature="294:1393" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="549:669" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="708:1131" ph="{...}" />
-            <marker date="1530607951979" expanded="true" signature="1169:1297" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Nuget.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <marker date="1531230980586" expanded="false" signature="6:151" ph="..." />
+            <marker date="1531230980586" expanded="true" signature="197:1412" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="294:1410" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="549:669" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="708:1131" ph="{...}" />
+            <marker date="1531230980586" expanded="true" signature="1169:1314" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
