@@ -81,14 +81,25 @@ namespace MyBucks.Core.MicroServices.Restful
             }));
             
             services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
-
+            ConfigureCustomServices(services);
             IntegrateSimpleInjector(services);
+        }
+
+        protected virtual void ConfigureCustomServices(IServiceCollection services)
+        {
+            
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             InitializeContainer(app);
             app.UseMvc();
+            ConfigureApp(app, env);
+        }
+
+        protected virtual void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
+        {
+            
         }
     }
 }
