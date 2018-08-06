@@ -9,7 +9,7 @@ namespace MyBucks.Core.MicroServices.Restful
 {
    public abstract class BasicRestService : RestServiceBase
     {
-        protected BasicRestService(IConfiguration configuration, IServiceStartup startup) :
+        public BasicRestService(IConfiguration configuration, IServiceStartup startup) :
             base(configuration, startup)
         { }
         

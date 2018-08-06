@@ -19,13 +19,13 @@ namespace MyBucks.Core.MicroServices.Restful
         private readonly IConfiguration _configuration;
         private readonly Container _container = new Container();
         
-        protected RestServiceBase(IConfiguration configuration, IServiceStartup startup)
+        public RestServiceBase(IConfiguration configuration, IServiceStartup startup)
         {
             _configuration = configuration;
             _startup = startup;
         }
 
-        protected IConfiguration Configuration => _configuration;
+        public IConfiguration Configuration => _configuration;
         
         public void ConfigureServices(IServiceCollection services)
         {
