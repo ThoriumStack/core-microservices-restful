@@ -39,11 +39,11 @@ namespace MyBucks.Core.MicroServices.Restful
             ConfigureApp(app, env);
         }
         
-        protected virtual void ConfigureCustomServices(IServiceCollection services)
+        public virtual void ConfigureCustomServices(IServiceCollection services)
         {
         }
         
-        protected virtual void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
+        public virtual void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
         {
         }
         
