@@ -27,13 +27,13 @@ namespace MyBucks.Core.MicroServices.Restful
 
         protected IConfiguration Configuration => _configuration;
         
-        protected void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             ConfigureCustomServices(services);
             IntegrateSimpleInjector(services);
         }
         
-        protected void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             InitializeContainer(app);
             ConfigureApp(app, env);
