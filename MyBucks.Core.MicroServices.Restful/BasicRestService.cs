@@ -17,6 +17,7 @@ namespace MyBucks.Core.MicroServices.Restful
         {
             services.AddMvc();
             services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
+            base.ConfigureCustomServices(services);
         }
         
         public new virtual void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)

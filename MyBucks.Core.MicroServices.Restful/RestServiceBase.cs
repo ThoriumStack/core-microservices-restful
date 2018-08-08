@@ -71,8 +71,8 @@ namespace MyBucks.Core.MicroServices.Restful
             // Add application services. For instance:
             LoadAppServices();
 
-            // Cross-wire ASP.NET services (if any). For instance:
-            _container.CrossWire<ILoggerFactory>(app);
+            // Allow Simple Injector to resolve services from ASP.NET Core.
+            _container.AutoCrossWireAspNetComponents(app);
             _container.Verify();
             // NOTE: Do prevent cross-wired instances as much as possible.
             // See: https://simpleinjector.org/blog/2016/07/
