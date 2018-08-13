@@ -3,10 +3,16 @@
   <component name="ContentModelStore">
     <e p="C:\projects\mybucks\lib\MyBucks.Core.MicroServices.Restful" t="IncludeFlat">
       <e p="MyBucks.Core.MicroServices.Restful" t="IncludeRecursive">
+        <e p="BasicRestService.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="DefaultWebServiceEndpoint.cs" t="Include" />
         <e p="Filters" t="Include">
           <e p="CheckKongAuthHeader.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="ActionFilterDispatcher.cs" t="Include" />
+          <e p="IActionFilter.cs" t="Include" />
+          <e p="ProfilingActionFilterDecorator.cs" t="Include" />
         </e>
         <e p="MyBucks.Core.MicroServices.Restful.csproj" t="IncludeRecursive" />
         <e p="NuGet.Config" t="Include" />

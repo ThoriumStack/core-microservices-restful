@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.Reflection;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Controllers;
@@ -10,6 +11,7 @@ using MyBucks.Core.MicroServices.Abstractions;
 using SimpleInjector;
 using SimpleInjector.Integration.AspNetCore.Mvc;
 using SimpleInjector.Lifestyles;
+using MyBucks.Core.MicroServices.Restful.Infrastructure;
 
 namespace MyBucks.Core.MicroServices.Restful
 {
@@ -17,7 +19,7 @@ namespace MyBucks.Core.MicroServices.Restful
     {
         private readonly IServiceStartup _startup;
         private readonly IConfiguration _configuration;
-        private readonly Container _container = new Container();
+        protected readonly Container _container = new Container();
         
         public RestServiceBase(IConfiguration configuration, IServiceStartup startup)
         {
@@ -67,7 +69,11 @@ namespace MyBucks.Core.MicroServices.Restful
             // Add application presentation components:
             _container.RegisterMvcControllers(app);
             _container.RegisterMvcViewComponents(app);
-
+            _container.Collection.Register(typeof(IActionFilter<>), typeof(IActionFilter<>).Assembly, Assembly.GetEntryAssembly());
+            _container.RegisterDecorator(
+                typeof(IActionFilter<>), 
+                typeof(ProfilingActionFilterDecorator<>));
+            
             // Add application services. For instance:
             LoadAppServices();
 

@@ -64,7 +64,7 @@
         },
         "MyBucks.Core.MicroServices": {
           "target": "Package",
-          "version": "[1.0.18, )"
+          "version": "[1.0.30, )"
         },
         "NETStandard.Library": {
           "suppressParent": "All",
