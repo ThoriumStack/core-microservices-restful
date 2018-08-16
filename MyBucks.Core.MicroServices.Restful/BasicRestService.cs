@@ -13,14 +13,14 @@ namespace MyBucks.Core.MicroServices.Restful
             base(configuration, startup)
         { }
         
-        public new virtual void ConfigureCustomServices(IServiceCollection services)
+        public override void ConfigureCustomServices(IServiceCollection services)
         {
             services.AddMvc();
             services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
             base.ConfigureCustomServices(services);
         }
         
-        public new virtual void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
+        public override void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseMvc();
             base.ConfigureApp(app, env);
