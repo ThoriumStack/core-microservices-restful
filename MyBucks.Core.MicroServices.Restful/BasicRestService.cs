@@ -17,12 +17,32 @@ namespace MyBucks.Core.MicroServices.Restful
         {
             services.AddMvc();
             services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
+            
+            services.AddSwaggerGen(options =>
+            {
+                options.DescribeAllEnumsAsStrings();
+                options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
+                {
+                    Title = "HTTP API",
+                    Version = "v1"
+                });
+                
+                // UseFullTypeNameInSchemaIds replacement for .NET Core
+                options.CustomSchemaIds(x => x.FullName);
+            });
             base.ConfigureCustomServices(services);
         }
         
         public override void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseMvc();
+            
+            app.UseSwagger()
+                .UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+                });
+            
             base.ConfigureApp(app, env);
         }
     }
