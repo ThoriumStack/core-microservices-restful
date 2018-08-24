@@ -35,13 +35,21 @@ namespace MyBucks.Core.MicroServices.Restful
         
         public override void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseMvc();
+            var pathBase = Configuration["PATH_BASE"];
+            if (!string.IsNullOrEmpty(pathBase))
+            {
+                app.UsePathBase(pathBase);
+            }
+
+            app.UseStaticFiles();
             
             app.UseSwagger()
                 .UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+                    c.SwaggerEndpoint($"{ (!string.IsNullOrEmpty(pathBase) ? pathBase : string.Empty) }/swagger/v1/swagger.json", "API V1");
                 });
+            
+            app.UseMvc();
             
             base.ConfigureApp(app, env);
         }
