@@ -17,7 +17,7 @@ namespace MyBucks.Core.MicroServices.Restful
         {
             services.AddMvc();
             services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
-            
+
             services.AddSwaggerGen(options =>
             {
                 options.DescribeAllEnumsAsStrings();
@@ -26,30 +26,24 @@ namespace MyBucks.Core.MicroServices.Restful
                     Title = "HTTP API",
                     Version = "v1"
                 });
-                
+
                 // UseFullTypeNameInSchemaIds replacement for .NET Core
                 options.CustomSchemaIds(x => x.FullName);
             });
+
             base.ConfigureCustomServices(services);
         }
         
         public override void ConfigureApp(IApplicationBuilder app, IHostingEnvironment env)
         {
-            var pathBase = Configuration["PATH_BASE"];
-            if (!string.IsNullOrEmpty(pathBase))
-            {
-                app.UsePathBase(pathBase);
-            }
-
             app.UseStaticFiles();
-            
+            app.UseMvc();
+
             app.UseSwagger()
                 .UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint($"{ (!string.IsNullOrEmpty(pathBase) ? pathBase : string.Empty) }/swagger/v1/swagger.json", "API V1");
+                    c.SwaggerEndpoint($"/swagger/v1/swagger.json", "API V1");
                 });
-            
-            app.UseMvc();
             
             base.ConfigureApp(app, env);
         }
