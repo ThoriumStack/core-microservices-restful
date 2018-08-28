@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\projects\\mybucks\\lib\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
+    "projectUniqueName": "C:\\projects\\mybucks\\lib\\core-microservices-restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
     "projectName": "MyBucks.Core.MicroServices.Restful",
-    "projectPath": "C:\\projects\\mybucks\\lib\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
-    "outputPath": "C:\\projects\\mybucks\\lib\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful\\obj\\",
+    "projectPath": "C:\\projects\\mybucks\\lib\\core-microservices-restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
+    "outputPath": "C:\\projects\\mybucks\\lib\\core-microservices-restful\\MyBucks.Core.MicroServices.Restful\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -54,6 +54,10 @@
           "target": "Package",
           "version": "[2.1.2, )"
         },
+        "Microsoft.AspNetCore.StaticFiles": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
         "Microsoft.Extensions.Configuration.Abstractions": {
           "target": "Package",
           "version": "[2.1.1, )"
@@ -64,7 +68,7 @@
         },
         "MyBucks.Core.MicroServices": {
           "target": "Package",
-          "version": "[1.0.30, )"
+          "version": "[1.0.34, )"
         },
         "NETStandard.Library": {
           "suppressParent": "All",
@@ -87,6 +91,14 @@
         "SimpleInjector.Integration.AspNetCore.Mvc.Core": {
           "target": "Package",
           "version": "[4.3.1, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerGen": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerUI": {
+          "target": "Package",
+          "version": "[3.0.0, )"
         }
       },
       "imports": [

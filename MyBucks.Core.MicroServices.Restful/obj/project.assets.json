@@ -722,6 +722,22 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll": {}
         }
       },
+      "Microsoft.AspNetCore.StaticFiles/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Http.Extensions": "2.1.1",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "Microsoft.Extensions.WebEncoders": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.StaticFiles.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.StaticFiles.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.WebUtilities/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -1074,6 +1090,19 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Composite.dll": {}
         }
       },
+      "Microsoft.Extensions.FileProviders.Embedded/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.1",
+          "System.Runtime.Extensions": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        }
+      },
       "Microsoft.Extensions.FileProviders.Physical/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -1390,7 +1419,7 @@
           "lib/netstandard2.0/MyBucks.Core.Defensive.dll": {}
         }
       },
-      "MyBucks.Core.MicroServices/1.0.30": {
+      "MyBucks.Core.MicroServices/1.0.34": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "7.0.1",
@@ -1909,6 +1938,53 @@
         },
         "runtime": {
           "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.Mvc.Core.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "1.0.4",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "1.0.4",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "1.0.4",
+          "Microsoft.AspNetCore.Mvc.Core": "1.0.4",
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.0.4",
+          "NETStandard.Library": "1.6.1",
+          "Swashbuckle.AspNetCore.Swagger": "3.0.0",
+          "System.Xml.XPath": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Routing": "1.0.4",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.4",
+          "Microsoft.Extensions.FileProviders.Embedded": "1.0.1",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -3210,7 +3286,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Xml.XPath.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.dll": {}
@@ -3879,6 +3955,18 @@
         "microsoft.aspnetcore.server.kestrel.transport.sockets.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.StaticFiles/2.1.1": {
+      "sha512": "3xumS58evfsC4cd8OXtYRafbwuVk5c37dsGQ1E1m0wZvRVUXScRWkTGdcPJcijoImlhoQK2pj6sY7NFMc5PfbQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.staticfiles/2.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.StaticFiles.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.StaticFiles.xml",
+        "microsoft.aspnetcore.staticfiles.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.staticfiles.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.WebUtilities/2.1.1": {
       "sha512": "gvCdObgQDLdZ9enyFQuPb3Rae6QyzZAPgHiv5JhYjORLMW1UNgWXvdqLov6iGtnyG+BBCavPooW9ScWGQCJHLg==",
       "type": "package",
@@ -4262,6 +4350,17 @@
         "microsoft.extensions.fileproviders.composite.nuspec"
       ]
     },
+    "Microsoft.Extensions.FileProviders.Embedded/1.0.1": {
+      "sha512": "nSEa8bH3fVdTYGqK4twOKLxxgKIW3cz9g9mrzhPh/CmdvGJWKRTIlBIZi7lz+lqNQpxean5vbAo84R/mU+JpGA==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.embedded/1.0.1",
+      "files": [
+        "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "microsoft.extensions.fileproviders.embedded.1.0.1.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.nuspec"
+      ]
+    },
     "Microsoft.Extensions.FileProviders.Physical/2.1.1": {
       "sha512": "pbT/J3B686Xgktv5WH11FbcbZXDmBQuCN3ce8IKIF+DpOk3p0RgUPrOXcYNp81TyH+K/5Cosr4VFVjYMoirNDg==",
       "type": "package",
@@ -4544,13 +4643,13 @@
         "mybucks.core.defensive.nuspec"
       ]
     },
-    "MyBucks.Core.MicroServices/1.0.30": {
-      "sha512": "tjV+tK37+28EK3XpL+Fw9zjctNzeLhq5fkpbO/nWajlUQ0HSVdBpurHwMTBy4fjxaxgY3Clk84fawNf1aQfs5w==",
+    "MyBucks.Core.MicroServices/1.0.34": {
+      "sha512": "V1Xyik5+fgcwacRa4MaY4483r6XLVaIJfso7YHcxHcWehvU6EDyhhjQzlkgLFLng4f49QneFhfqlw3npi1Jtew==",
       "type": "package",
-      "path": "mybucks.core.microservices/1.0.30",
+      "path": "mybucks.core.microservices/1.0.34",
       "files": [
         "lib/netstandard2.0/MyBucks.Core.MicroServices.dll",
-        "mybucks.core.microservices.1.0.30.nupkg.sha512",
+        "mybucks.core.microservices.1.0.34.nupkg.sha512",
         "mybucks.core.microservices.nuspec"
       ]
     },
@@ -5207,6 +5306,45 @@
         "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.Mvc.Core.xml",
         "simpleinjector.integration.aspnetcore.mvc.core.4.3.1.nupkg.sha512",
         "simpleinjector.integration.aspnetcore.mvc.core.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/3.0.0": {
+      "sha512": "smrewcRU7HK+3WRZWNYFXVAqD1apyIEwcYEdzVu23tNJek8GQM1V8yqIlj41D8CbYoqaeF+fDhkUDY6FSXUDuw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/3.0.0",
+      "files": [
+        "lib/net451/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net451/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.3.0.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/3.0.0": {
+      "sha512": "DjGV/s6dUi+Xg4ofc2/TCDJlFhGAstvStCBAJ8F2mllIRAtf+s0HsfAIPmFy+W0gOzo1/voRtMKU1uvINZtDFw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/3.0.0",
+      "files": [
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "swashbuckle.aspnetcore.swaggergen.3.0.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/3.0.0": {
+      "sha512": "Gg3rELfq7qJOx8d4xO6hvqSdhMk9ofQCdtLVjBAAVyKehkJRCqiXUO+hJ+/GeEngkaLEglaK/+6an4gC/AxOlg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/3.0.0",
+      "files": [
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.3.0.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -9231,14 +9369,17 @@
       "Microsoft.AspNetCore.Mvc.Core >= 2.1.1",
       "Microsoft.AspNetCore.Mvc.Versioning >= 2.3.0",
       "Microsoft.AspNetCore.Server.Kestrel >= 2.1.2",
+      "Microsoft.AspNetCore.StaticFiles >= 2.1.1",
       "Microsoft.Extensions.Configuration.Abstractions >= 2.1.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.1.1",
-      "MyBucks.Core.MicroServices >= 1.0.30",
+      "MyBucks.Core.MicroServices >= 1.0.34",
       "NETStandard.Library >= 2.0.3",
       "Serilog >= 2.7.1",
       "Serilog.AspNetCore >= 2.1.1",
       "SimpleInjector >= 4.3.0",
-      "SimpleInjector.Integration.AspNetCore.Mvc.Core >= 4.3.1"
+      "SimpleInjector.Integration.AspNetCore.Mvc.Core >= 4.3.1",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 3.0.0",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -9248,11 +9389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\mybucks\\lib\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
+      "projectUniqueName": "C:\\projects\\mybucks\\lib\\core-microservices-restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
       "projectName": "MyBucks.Core.MicroServices.Restful",
-      "projectPath": "C:\\projects\\mybucks\\lib\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
+      "projectPath": "C:\\projects\\mybucks\\lib\\core-microservices-restful\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful.csproj",
       "packagesPath": "C:\\Users\\tjaartb\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\mybucks\\lib\\MyBucks.Core.MicroServices.Restful\\MyBucks.Core.MicroServices.Restful\\obj\\",
+      "outputPath": "C:\\projects\\mybucks\\lib\\core-microservices-restful\\MyBucks.Core.MicroServices.Restful\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9311,6 +9452,10 @@
             "target": "Package",
             "version": "[2.1.2, )"
           },
+          "Microsoft.AspNetCore.StaticFiles": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
             "version": "[2.1.1, )"
@@ -9321,7 +9466,7 @@
           },
           "MyBucks.Core.MicroServices": {
             "target": "Package",
-            "version": "[1.0.30, )"
+            "version": "[1.0.34, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -9344,6 +9489,14 @@
           "SimpleInjector.Integration.AspNetCore.Mvc.Core": {
             "target": "Package",
             "version": "[4.3.1, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           }
         },
         "imports": [
