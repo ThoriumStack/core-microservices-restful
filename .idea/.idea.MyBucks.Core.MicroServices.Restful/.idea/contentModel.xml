@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="\5a590dd4" t="IncludeRecursive" />
-    <e p="\app" t="IncludeRecursive" />
     <e p="C:\projects\mybucks\lib\core-microservices-restful" t="IncludeFlat">
       <e p="MyBucks.Core.MicroServices.Restful" t="IncludeRecursive">
         <e p="BasicRestService.cs" t="Include" />
@@ -30,9 +28,6 @@
       <e p="MyBucks.Core.MicroServices.Restful.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\tjaartb\.Rider2018.2\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\tjaartb\.Rider2018.2\config\consoles\ide" t="IncludeRecursive" />
-    <e p="C:\Users\tjaartb\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\tjaartb\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_MyBucks.Core.MicroServices.Restful.-680934516.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tjaartb\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_MyBucks.Core.MicroServices.Restful.-680934516.00" t="ExcludeRecursive" />
   </component>
 </project>

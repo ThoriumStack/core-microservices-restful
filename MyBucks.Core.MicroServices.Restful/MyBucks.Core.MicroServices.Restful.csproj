@@ -3,19 +3,19 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting"  />
+    <PackageReference Include="Microsoft.AspNetCore.Http"  />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions"  />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc"  />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core"  />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.1.2" />
-    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.1" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles"  />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions"  />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"  />
     <PackageReference Include="MyBucks.Core.MicroServices" Version="1.0.37" />
     <PackageReference Include="Serilog" Version="2.7.1" />
-    <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Serilog.AspNetCore"  />
     <PackageReference Include="SimpleInjector" Version="4.3.0" />
     <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="4.3.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="3.0.0" />
