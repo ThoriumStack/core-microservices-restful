@@ -23,9 +23,10 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="package upgrade">
+    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="Package upgrades to latest versions">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.props" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,17 +62,29 @@
     <session id="1642679477">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open" />
-      <usages-collector id="statistics.file.types.edit" />
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="35" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.file.extensions.open" />
       <usages-collector id="statistics.kubernetes.usages" />
     </session>
@@ -117,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/BasicRestService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <marker date="1537268586965" expanded="false" signature="6:251" ph="..." />
                 <marker date="1537268586965" expanded="true" signature="297:1680" ph="{...}" />
@@ -156,6 +169,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/Debug/netstandard2.0/MyBucks.Core.MicroServices.Restful.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -273,7 +291,8 @@
       <workItem from="1539003619418" duration="673000" />
       <workItem from="1539260051225" duration="1575000" />
       <workItem from="1539263774887" duration="655000" />
-      <workItem from="1541509316749" duration="1602000" />
+      <workItem from="1541509316749" duration="2456000" />
+      <workItem from="1541684799775" duration="1513000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1530263060310</created>
@@ -443,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539263828310</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Package upgrades to latest versions">
+      <created>1541512296364</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1541512296364</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51147000" />
+    <option name="totallyTimeSpent" value="53514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +488,7 @@
     <frame x="1978" y="34" width="1862" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33920705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3430617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -479,7 +505,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="14" />
+      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="TeamCity" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -506,7 +532,8 @@
     <MESSAGE value="upgrade package" />
     <MESSAGE value="IActionFilter" />
     <MESSAGE value="package upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="package upgrade" />
+    <MESSAGE value="Package upgrades to latest versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package upgrades to latest versions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,8 +612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/BasicRestService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
             <marker date="1537268586965" expanded="false" signature="6:251" ph="..." />
             <marker date="1537268586965" expanded="true" signature="297:1680" ph="{...}" />
