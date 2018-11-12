@@ -3,9 +3,107 @@
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_MyBucks.Core.MicroServices.Restful.245380794.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../core-microservices/MyBucks.Core.MicroServices" t="IncludeRecursive">
+      <e p="Abstractions" t="Include">
+        <e p="ICanCheckLiveness.cs" t="Include" />
+        <e p="ICliExtender.cs" t="Include" />
+        <e p="ICustomLogging.cs" t="Include" />
+        <e p="IGenericRepositoryBase.cs" t="Include" />
+        <e p="ILiveChecker.cs" t="Include" />
+        <e p="ILivenessCheck.cs" t="Include" />
+        <e p="IMapperFactory.cs" t="Include" />
+        <e p="IRedisConfigurationSource.cs" t="Include" />
+        <e p="IRepositoryBase.cs" t="Include" />
+        <e p="ISeedable.cs" t="Include" />
+        <e p="ISelect.cs" t="Include" />
+        <e p="IServiceEndpoint.cs" t="Include" />
+        <e p="IServiceStartup.cs" t="Include" />
+      </e>
+      <e p="ConfigurationModels" t="Include">
+        <e p="CustomLoggerConfiguration.cs" t="Include" />
+        <e p="DbSettings.cs" t="Include" />
+        <e p="RedisConfig.cs" t="Include" />
+        <e p="WebServiceSettings.cs" t="Include" />
+      </e>
+      <e p="CoreModelExtensions.cs" t="Include" />
+      <e p="DataSeederBase.cs" t="Include" />
+      <e p="Endpoints" t="Include">
+        <e p="LiveCheckEndpoint.cs" t="Include" />
+        <e p="ReadyCheckEndpoint.cs" t="Include" />
+      </e>
+      <e p="Extensions" t="Include">
+        <e p="DataMigrationBase.cs" t="Include" />
+      </e>
+      <e p="LivenessChecks" t="Include">
+        <e p="DatabaseLivenessCheck.cs" t="Include" />
+        <e p="LivenessCheckConfiguration.cs" t="Include" />
+      </e>
+      <e p="Mappers" t="Include">
+        <e p="MapperExtensions.cs" t="Include" />
+        <e p="MapperFactory.cs" t="Include" />
+        <e p="MappingProfile.cs" t="Include" />
+      </e>
+      <e p="MyBucks.Core.MicroServices.csproj" t="IncludeRecursive" />
+      <e p="Nuget.config" t="Include" />
+      <e p="Platform" t="Include">
+        <e p="UnixSignalHandler.cs" t="Include" />
+      </e>
+      <e p="RawSql.cs" t="Include" />
+      <e p="ReadyCheckCli.cs" t="Include" />
+      <e p="Redis" t="Include">
+        <e p="ConfigQueryResult.cs" t="Include" />
+        <e p="RedisConfigurationClient.cs" t="Include" />
+        <e p="RedisConfigurationExtensions.cs" t="Include" />
+        <e p="RedisConfigurationFileParser.cs" t="Include" />
+        <e p="RedisConfigurationProvider.cs" t="Include" />
+        <e p="RedisConfigurationSource.cs" t="Include" />
+        <e p="RedisWatchExceptionContext.cs" t="Include" />
+      </e>
+      <e p="Repositories" t="Include">
+        <e p="ContextRepositoryBase.cs" t="Include" />
+        <e p="GenericContextRepositoryBase.cs" t="Include" />
+        <e p="GenericRepositoryBase.cs" t="Include" />
+        <e p="PreFilterEventArgs.cs" t="Include" />
+        <e p="RepositoryBase.cs" t="Include" />
+        <e p="Select.cs" t="Include" />
+      </e>
+      <e p="ServiceCommandLine.cs" t="Include" />
+      <e p="ServiceConfiguration.cs" t="Include" />
+      <e p="ServiceRunner.cs" t="Include" />
+      <e p="ServiceStartup.cs" t="Include" />
+      <e p="Services" t="Include">
+        <e p="ServiceBase.cs" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netstandard2.0" t="Include">
+            <e p="MyBucks.Core.MicroServices.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DummyRestService" t="IncludeRecursive">
+        <e p="DummyRestService.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="config" t="Include">
+          <e p="appsettings.json" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DummyRestService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="MyBucks.Core.MicroServices.Restful" t="IncludeRecursive">
         <e p="BasicRestService.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="HealthCheckController.cs" t="Include" />
+        </e>
         <e p="DefaultWebServiceEndpoint.cs" t="Include" />
         <e p="Filters" t="Include">
           <e p="CheckKongAuthHeader.cs" t="Include" />

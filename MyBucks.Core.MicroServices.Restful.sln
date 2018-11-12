@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBucks.Core.MicroServices.Restful", "MyBucks.Core.MicroServices.Restful\MyBucks.Core.MicroServices.Restful.csproj", "{D6C46473-A7BE-4B39-A510-5CB9603AD904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyRestService", "DummyRestService\DummyRestService.csproj", "{EAAE9779-AE5D-4CFA-A9CB-946D3142C2A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBucks.Core.MicroServices", "..\core-microservices\MyBucks.Core.MicroServices\MyBucks.Core.MicroServices.csproj", "{78042404-262E-4AEC-9BA2-256983B83154}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{D6C46473-A7BE-4B39-A510-5CB9603AD904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C46473-A7BE-4B39-A510-5CB9603AD904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C46473-A7BE-4B39-A510-5CB9603AD904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAE9779-AE5D-4CFA-A9CB-946D3142C2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAE9779-AE5D-4CFA-A9CB-946D3142C2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAE9779-AE5D-4CFA-A9CB-946D3142C2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAE9779-AE5D-4CFA-A9CB-946D3142C2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78042404-262E-4AEC-9BA2-256983B83154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78042404-262E-4AEC-9BA2-256983B83154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78042404-262E-4AEC-9BA2-256983B83154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78042404-262E-4AEC-9BA2-256983B83154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -16,7 +16,11 @@ namespace MyBucks.Core.MicroServices.Restful
         public override void ConfigureCustomServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddApiVersioning(o => o.ApiVersionReader = new UrlSegmentApiVersionReader());
+            services.AddApiVersioning(o =>
+            {
+                o.ApiVersionReader = new UrlSegmentApiVersionReader();
+                o.AssumeDefaultVersionWhenUnspecified = true;
+            });
 
             services.AddSwaggerGen(options =>
             {
