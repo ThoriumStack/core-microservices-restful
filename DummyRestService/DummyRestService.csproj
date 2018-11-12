@@ -9,4 +9,5 @@
       <ProjectReference Include="..\MyBucks.Core.MicroServices.Restful\MyBucks.Core.MicroServices.Restful.csproj" />
     </ItemGroup>
 
+   
 </Project>
