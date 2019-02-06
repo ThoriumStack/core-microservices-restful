@@ -24,10 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="upgrade microservice lib">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/obj/MyBucks.Core.MicroServices.Restful.csproj.nuget.g.targets" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,8 @@
             <state relative-caret-position="750">
               <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
               <folding>
+                <marker date="1537268586965" expanded="false" signature="6:554" ph="..." />
+                <marker date="1537268586965" expanded="true" signature="600:3424" ph="{...}" />
                 <marker date="1537268586965" expanded="true" signature="644:3422" ph="{...}" />
                 <marker date="1537268586965" expanded="true" signature="919:1015" ph="{...}" />
                 <marker date="1537268586965" expanded="true" signature="1155:1269" ph="{...}" />
@@ -76,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Infrastructure/ProfilingActionFilterDecorator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="195">
               <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <marker date="1537268586965" expanded="false" signature="6:94" ph="..." />
@@ -134,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Controllers/HealthCheckController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="255">
               <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <marker date="1542119269883" expanded="false" signature="6:78" ph="..." />
@@ -150,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="98" lean-forward="true" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -159,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="210">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <marker date="1537268586965" expanded="false" signature="6:151" ph="..." />
@@ -281,7 +283,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SearchEverywhereHistoryKey" value="webser&#9;null&#9;null&#10;iliveche&#9;FILE&#9;file:///home/tjaart/projects/lib/core-microservices/MyBucks.Core.MicroServices/Abstractions/ILiveChecker.cs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../core-mvctools/MyBucks.Mvc.Tools.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../core-dataprovider/MyBucks.Core.DataProvider.csproj" />
     <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunDashboard">
@@ -362,6 +364,7 @@
       <workItem from="1542266558681" duration="6129000" />
       <workItem from="1548413581598" duration="2073000" />
       <workItem from="1548422142790" duration="1172000" />
+      <workItem from="1549456184909" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1530263060310</created>
@@ -608,11 +611,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549280307028</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="upgrade microservice lib">
+      <created>1549282847982</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1549282847982</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78395000" />
+    <option name="totallyTimeSpent" value="81315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,9 +635,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1978" y="34" width="1862" height="1046" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37720263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38160792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -646,7 +655,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.3278867" />
       <window_info anchor="bottom" id="TeamCity" order="15" />
       <window_info anchor="bottom" id="Stacktrace" order="16" weight="0.44956142" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -892,6 +901,8 @@
         <state relative-caret-position="750">
           <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
           <folding>
+            <marker date="1537268586965" expanded="false" signature="6:554" ph="..." />
+            <marker date="1537268586965" expanded="true" signature="600:3424" ph="{...}" />
             <marker date="1537268586965" expanded="true" signature="644:3422" ph="{...}" />
             <marker date="1537268586965" expanded="true" signature="919:1015" ph="{...}" />
             <marker date="1537268586965" expanded="true" signature="1155:1269" ph="{...}" />
@@ -921,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Infrastructure/ProfilingActionFilterDecorator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="195">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <marker date="1537268586965" expanded="false" signature="6:94" ph="..." />
@@ -973,7 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/Controllers/HealthCheckController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="255">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <marker date="1542119269883" expanded="false" signature="6:78" ph="..." />
@@ -987,7 +998,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/DefaultWebServiceEndpoint.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="210">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <marker date="1537268586965" expanded="false" signature="6:151" ph="..." />
@@ -1002,8 +1013,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="98" lean-forward="true" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>

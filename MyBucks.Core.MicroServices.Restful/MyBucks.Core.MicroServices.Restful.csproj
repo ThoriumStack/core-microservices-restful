@@ -13,11 +13,14 @@
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
-    <PackageReference Include="MyBucks.Core.MicroServices" Version="1.3.0" />
+    <PackageReference Include="MyBucks.Core.MicroServices" Version="1.3.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
     <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="4.4.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="4.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="4.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--<ProjectReference Include="..\..\core-microservices\MyBucks.Core.MicroServices\MyBucks.Core.MicroServices.csproj" />-->
   </ItemGroup>
   
 
