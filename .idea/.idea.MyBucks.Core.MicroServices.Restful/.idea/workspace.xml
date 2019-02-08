@@ -23,7 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="upgrade microservice lib for tz changes" />
+    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="upgrade restul versioning" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +379,7 @@
       <workItem from="1548413581598" duration="2073000" />
       <workItem from="1548422142790" duration="1172000" />
       <workItem from="1549456184909" duration="2203000" />
-      <workItem from="1549609555231" duration="1373000" />
+      <workItem from="1549609555231" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1530263060310</created>
@@ -647,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549609683169</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="upgrade restul versioning">
+      <created>1549614586970</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1549614586970</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83565000" />
+    <option name="totallyTimeSpent" value="84069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,7 +726,8 @@
     <MESSAGE value="package upgrades" />
     <MESSAGE value="upgrade microservice lib" />
     <MESSAGE value="upgrade microservice lib for tz changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade microservice lib for tz changes" />
+    <MESSAGE value="upgrade restul versioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade restul versioning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
