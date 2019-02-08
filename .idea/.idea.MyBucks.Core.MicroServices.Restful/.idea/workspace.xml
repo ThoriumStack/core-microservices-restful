@@ -23,12 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="upgrade microservice lib">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyBucks.Core.MicroServices.Restful/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="142dcd6b-a4d3-4fd4-81f2-e5cecca2a042" name="Default" comment="upgrade microservice lib for tz changes" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,11 +144,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="30">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DummyRestService/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+              <folding>
+                <marker date="1542119269883" expanded="false" signature="6:296" ph="..." />
+                <marker date="1542119269883" expanded="true" signature="324:1600" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="344:530" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="390:524" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="601:1011" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="680:856" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="936:1005" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="1063:1415" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="1151:1201" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="1239:1409" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="1466:1598" ph="{...}" />
+                <marker date="1542119269883" expanded="true" signature="1572:1592" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,6 +198,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>service-live-check</find>
+      <find>dat</find>
+      <find>datet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -364,7 +384,7 @@
       <workItem from="1542266558681" duration="6129000" />
       <workItem from="1548413581598" duration="2073000" />
       <workItem from="1548422142790" duration="1172000" />
-      <workItem from="1549456184909" duration="1326000" />
+      <workItem from="1549456184909" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1530263060310</created>
@@ -618,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549282847982</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="upgrade microservice lib for tz changes">
+      <created>1549460364827</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1549460364827</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81315000" />
+    <option name="totallyTimeSpent" value="82192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,6 +662,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1978" y="34" width="1862" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38160792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -688,7 +716,8 @@
     <MESSAGE value="check fix upgrade &lt;--- that makes no sense. Okay so whot I did was this: I fixed the rabbit mq connection not being closed in the microservice library, and because this library uses that one, I now have to upgrade the package in this one, which is what this is. So there it is." />
     <MESSAGE value="package upgrades" />
     <MESSAGE value="upgrade microservice lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade microservice lib" />
+    <MESSAGE value="upgrade microservice lib for tz changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade microservice lib for tz changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,27 +897,6 @@
     <entry file="file://$PROJECT_DIR$/../core-microservices/MyBucks.Core.MicroServices/LivenessChecks/DatabaseLivenessCheck.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DummyRestService/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <marker date="1542119269883" expanded="false" signature="6:296" ph="..." />
-            <marker date="1542119269883" expanded="true" signature="324:1600" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="344:530" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="390:524" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="601:1011" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="680:856" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="936:1005" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="1063:1415" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="1151:1201" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="1239:1409" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="1466:1598" ph="{...}" />
-            <marker date="1542119269883" expanded="true" signature="1572:1592" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DummyRestService/DummyRestService.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1013,8 +1021,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBucks.Core.MicroServices.Restful/MyBucks.Core.MicroServices.Restful.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DummyRestService/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <marker date="1542119269883" expanded="false" signature="6:296" ph="..." />
+            <marker date="1542119269883" expanded="true" signature="324:1600" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="344:530" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="390:524" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="601:1011" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="680:856" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="936:1005" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="1063:1415" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="1151:1201" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="1239:1409" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="1466:1598" ph="{...}" />
+            <marker date="1542119269883" expanded="true" signature="1572:1592" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
