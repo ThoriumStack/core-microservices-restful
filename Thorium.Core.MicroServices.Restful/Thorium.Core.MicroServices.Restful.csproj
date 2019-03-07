@@ -2,6 +2,24 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>$(appveyor_build_version)</Version>
+    <Authors>Thorium Dev Team</Authors>
+    <Company>Thorium Dev Team</Company>
+    <Product>Core Microservices Restful</Product>
+    <PackageId>Thorium.Core.MicroServices.Restful</PackageId>
+    <AssemblyVersion>$(appveyor_build_version)</AssemblyVersion>
+    <FileVersion>$(appveyor_build_version)</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Core Microservices Restful</Description>
+    <Copyright>Copyright</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/ThoriumStack/core-microservices-restful/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ThoriumStack/core-microservices-restful</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThoriumStack/core-microservices-restful</RepositoryUrl>
+    <PackageReleaseNotes>Release</PackageReleaseNotes>
+  </PropertyGroup>
+  
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
