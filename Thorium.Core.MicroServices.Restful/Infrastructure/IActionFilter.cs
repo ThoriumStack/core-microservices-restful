@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace MyBucks.Core.MicroServices.Restful.Infrastructure
+namespace Thorium.Core.MicroServices.Restful.Infrastructure
 {
     /// <summary>
     /// please see https://www.cuttingedge.it/blogs/steven/pivot/entry.php?id=98

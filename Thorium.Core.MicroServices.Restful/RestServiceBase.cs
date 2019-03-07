@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using MyBucks.Core.MicroServices.Abstractions;
 using SimpleInjector;
 using SimpleInjector.Integration.AspNetCore.Mvc;
 using SimpleInjector.Lifestyles;
-using MyBucks.Core.MicroServices.Restful.Infrastructure;
+using Thorium.Core.MicroServices;
+using Thorium.Core.MicroServices.Abstractions;
+using Thorium.Core.MicroServices.Restful.Infrastructure;
 
-namespace MyBucks.Core.MicroServices.Restful
+namespace Thorium.Core.MicroServices.Restful
 {
     public abstract class RestServiceBase
     {

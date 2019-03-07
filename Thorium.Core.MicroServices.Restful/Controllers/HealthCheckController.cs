@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using MyBucks.Core.MicroServices.Abstractions;
+using Thorium.Core.MicroServices.Abstractions;
 
-namespace MyBucks.Core.MicroServices.Restful.Controllers
+namespace Thorium.Core.MicroServices.Restful.Controllers
 {
     [ApiController]
     [Route("/health")]

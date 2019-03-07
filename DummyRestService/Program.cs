@@ -1,11 +1,10 @@
 ﻿using System;
-using Microsoft.Extensions.Configuration;
-using MyBucks.Core.MicroServices;
-using MyBucks.Core.MicroServices.Abstractions;
-using MyBucks.Core.MicroServices.ConfigurationModels;
-using MyBucks.Core.MicroServices.LivenessChecks;
-using MyBucks.Core.MicroServices.Restful;
+using Thorium.Core.MicroServices.Restful;
 using Serilog;
+using Thorium.Core.MicroServices;
+using Thorium.Core.MicroServices.Abstractions;
+using Thorium.Core.MicroServices.ConfigurationModels;
+using Thorium.Core.MicroServices.LivenessChecks;
 
 namespace DummyRestService
 {

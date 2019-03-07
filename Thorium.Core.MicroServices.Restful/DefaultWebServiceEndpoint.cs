@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Hosting;
-using MyBucks.Core.MicroServices.Abstractions;
-using MyBucks.Core.MicroServices.ConfigurationModels;
 using Serilog;
+using Thorium.Core.MicroServices.Abstractions;
+using Thorium.Core.MicroServices.ConfigurationModels;
 
-namespace MyBucks.Core.MicroServices.Restful
+namespace Thorium.Core.MicroServices.Restful
 {
     public class DefaultWebServiceEndpoint<TStartup> : IServiceEndpoint where TStartup : class
     {

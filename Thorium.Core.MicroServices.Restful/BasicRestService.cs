@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MyBucks.Core.MicroServices.Abstractions;
+using Thorium.Core.MicroServices.Abstractions;
 
-namespace MyBucks.Core.MicroServices.Restful
+namespace Thorium.Core.MicroServices.Restful
 {
    public abstract class BasicRestService : RestServiceBase
     {

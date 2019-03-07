@@ -1,14 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc.Controllers;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace MyBucks.Core.MicroServices.Restful.Infrastructure
+namespace Thorium.Core.MicroServices.Restful.Infrastructure
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Collections;
-    using System.Reflection;
-
     public sealed class ActionFilterDispatcher : IActionFilter
     {
         private readonly Func<Type, IEnumerable> container;

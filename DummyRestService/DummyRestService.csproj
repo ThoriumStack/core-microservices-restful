@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MyBucks.Core.MicroServices.Restful\MyBucks.Core.MicroServices.Restful.csproj" />
+      <ProjectReference Include="..\Thorium.Core.MicroServices.Restful\Thorium.Core.MicroServices.Restful.csproj" />
     </ItemGroup>
 
    

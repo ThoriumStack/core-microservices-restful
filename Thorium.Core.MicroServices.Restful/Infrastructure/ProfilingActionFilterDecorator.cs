@@ -3,7 +3,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Serilog;
 
-namespace MyBucks.Core.MicroServices.Restful.Infrastructure
+namespace Thorium.Core.MicroServices.Restful.Infrastructure
 {
     public class ProfilingActionFilterDecorator<TAttribute>
         : IActionFilter<TAttribute>
